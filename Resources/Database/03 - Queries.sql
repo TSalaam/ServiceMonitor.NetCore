@@ -1,3 +1,6 @@
+USE [RAMServiceMonitor]
+GO
+
 select
 	[EnvironmentCategory].[EnvironmentCategoryName],
 	[Service].[Name],

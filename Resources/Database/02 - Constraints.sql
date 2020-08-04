@@ -1,3 +1,6 @@
+USE [RAMServiceMonitor]
+GO
+
 alter table [dbo].[ServiceCategory]
 	add constraint [PK_ServiceCategory] primary key([ID])
 

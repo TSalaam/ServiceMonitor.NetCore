@@ -1,3 +1,6 @@
+USE [RAMServiceMonitor]
+GO
+
 create table [dbo].[ServiceCategory]
 (
 	[ID] smallint not null identity(100, 100),
